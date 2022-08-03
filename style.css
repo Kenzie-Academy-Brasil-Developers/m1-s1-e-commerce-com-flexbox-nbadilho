@@ -1,0 +1,109 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+.barra{
+    width: 100%;
+    background: #ffffff;
+    box-shadow: 0px 4px 30px -10px rgba(0, 0, 0, 0.1);
+    font-family: 'Montserrat', sans-serif;
+}
+.menu3{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    height: 70px;
+} 
+.logo{
+    font-weight: bolder;
+}
+li{
+    list-style-type: none;
+}
+.menu1 , .lista2{
+    display: flex;
+    gap: 50px;
+}
+.lista2 a{
+    text-decoration: none;
+    color: #585e65;
+}
+.menu2 button{
+    padding: 7px 32px 7px 32px;
+    background-color: #4c6ef5;
+    border-radius: 4px;
+    color:white;
+    text-decoration: none;
+    border:transparent;
+}
+.lista2 a:hover{
+    color:black;
+}
+.menu2 button:hover{
+color:#f0f0d8;
+}
+.total{
+    background-color: #e0e0e0;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+}
+.maior ul{
+    display: flex;
+      justify-content: space-between;
+      align-content: center;
+      flex-wrap: wrap;
+      padding-top: 30px;
+      padding-bottom: 30px;
+      gap:15px;
+}
+.todos li{
+    border-radius:8px;
+    max-width: 285px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+
+}
+img{
+    height: 180px;
+    border-radius:8px;
+    max-width: 250px;
+    padding:35px;
+}
+.todos button{
+    padding-top:10px;
+    padding-bottom: 10px;
+    background-color:#4c6ef5;
+    color:white;
+    border:transparent;
+    margin-left:12px;
+    margin-right:12px;
+    margin-bottom: 12px;
+    border-radius: 5px;
+    
+}
+ h2 , p{
+        padding:10px;
+    }
